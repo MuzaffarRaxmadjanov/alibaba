@@ -1,0 +1,176 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.slidebar{
+    width: 1478px;
+    height: 454px;
+    background-color: #FFFFFF;
+    border: 1px solid #DCDEE3;
+    display: flex;
+    margin: auto;
+}
+
+.firstpart{
+    width: 285px;
+    height: 407px;
+    /* background-color: blue; */
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.firstheadline{
+    width: 265px;
+    height: 35px;
+    /* background-color: aqua; */
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #F4F4F4;
+}
+
+.headlinetext{
+    font-size: 14px;
+    line-height: 19px;
+    font-weight: 700;
+    color: #333;
+    padding-top: 8px;
+    padding-left: 15px;
+}
+
+.forall{
+    width: 285px;
+    height: 45px;
+   
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.forall:hover{
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    color: #FF4F00;
+}
+
+.smallimages{
+    width: 32px;
+    height: 32px;
+    border-radius: 20px;
+    margin-left: 10px;
+}
+
+.productinfo{
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 400px;
+    color: #333333;
+    margin-left: 8px;
+}
+.productinfo:hover{
+    color: #FF4F00;
+}
+
+.icon1{
+    color: #949494;
+    position: absolute;
+    right: 10px;
+}
+
+.secondpart{
+    width: 873px;
+    height: 400px;
+    /* background-color: bisque; */
+    margin-top: 20px;
+}
+
+.lastpart{
+    width: 240px;
+    height: 434px;
+    /* background-color: aqua; */
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.lastheadline{
+    width: 240px;
+    height: 116px;
+    /* background-color: bisque; */
+    display: flex;
+    flex-direction: column;
+}
+
+.club{
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 400;
+    color: #222;
+    margin-top: 12px;
+    margin-left: 12px;
+}
+
+.clubprice{
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 600;
+    margin-top: -4px;
+    margin-left: 12px;
+}
+
+.clubmore{
+    width: 94px;
+    height: 28px;
+     border-radius: 18px;
+     background-color: #222;
+     font-size: 14px;
+     font-weight: 400;
+     color: #fff;
+     line-height: 28px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     margin-top: 8px;
+     margin-left: 130px;
+}
+
+.tradeshow{
+    width: 240px;
+    height: 32px;
+    background-color: #FF4F00;
+    margin-top: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.showtext{
+    font-size: 14px;
+    line-height: 33px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.reusable{
+    width: 240px;
+    height: 82px;
+    border-bottom: 1px solid #E6E8EB;
+    display: flex;
+}
+
+.summershow{
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 700;
+    max-height: 44px;
+    max-width: 198px;
+    color: #333;
+    word-break: break-all;
+    text-overflow: ellipsis;
+}
+
+.trade1{
+    width: 60px;
+    height: 60px;
+    margin-top: 20px;
+    margin-left: 40px;
+}

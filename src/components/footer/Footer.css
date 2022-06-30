@@ -1,0 +1,182 @@
+footer {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #445268;
+    font-family: sans-serif;
+
+}
+.input1{
+    text-indent: 15px;
+}
+
+.footerCont {
+    width: 80%;
+    margin: auto;
+    height: 400px;
+    background-color: #445268;
+    border-bottom: 1px solid #313D51;
+    ;
+
+}
+
+
+.trade-alert {
+    width: 40%;
+    margin: auto;
+    margin-top: 10px;
+    text-align: center;
+    padding: 5px 0px;
+    color: white;
+}
+
+.flex-div {
+    display: flex;
+    margin-top: 15px;
+}
+
+.trade-alert input {
+    background-color: #313D51;
+    width: 50%;
+    height: 30px;
+    color: white;
+    border: 1px solid white;
+    margin-left: 100px;
+}
+
+.trade-alert button {
+    height: 30px;
+    background: transparent;
+    width: 15%;
+    color: white;
+    border: 1px solid white;
+    margin-left: 15px;
+}
+
+.about-alibaba {
+    width: 98%;
+    padding: 2%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-alibaba ul h3 {
+    padding: 5px 0;
+    margin: 0;
+    color: white;
+}
+
+.about-alibaba ul li {
+    list-style: none;
+    padding: 3px 0;
+    font-size: 14px;
+
+}
+
+.about-alibaba ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.about-alibaba ul li a:hover {
+    border-bottom: 1px solid #fff;
+}
+
+.social {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    background-color: #445268;
+}
+
+.social-app {
+    display: flex;
+    margin: 5px;
+    padding: 5px;
+}
+
+.social-app p {
+    margin: 3px;
+    padding: 0;
+
+}
+
+.social-app a img {
+    width: 100px;
+    height: 30px;
+    background-color: white;
+    margin-left: 5px;
+}
+
+.supplier-app {
+    display: flex;
+    margin: 5px;
+    padding: 5px;
+}
+
+.supplier-app a img {
+    width: 50px;
+    height: 30px;
+    margin-left: 5px;
+}
+
+.supplier-app p {
+    margin: 3px;
+    padding: 0;
+}
+
+.social-media {
+    display: flex;
+    margin: 5px;
+    padding: 5px;
+}
+
+.social-media>svg {
+    width: 25px;
+    border-radius: 4px;
+    height: 25px;
+    background-color: #fff;
+    margin-left: 15px;
+    color: #445268;
+    cursor: pointer;
+}
+
+#social-media-list {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.social-media p {
+    margin: 3px;
+    padding: 0px;
+}
+
+#social-media-list li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#social-media-list li a img {
+    width: 50px;
+    height: 30px;
+    margin-left: 5px;
+}
+
+.additional {
+    text-align: center;
+    color: white;
+    background-color: #445268;
+}
+
+.additional p {
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.marginn-div {
+    width: 10px;
+    height: 50px;
+}

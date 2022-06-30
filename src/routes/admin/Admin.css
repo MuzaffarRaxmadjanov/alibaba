@@ -1,0 +1,83 @@
+.post_firebase_container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+
+    border-radius: 34px;
+        background: linear-gradient(225deg, #71d0c4, #87f7e9);
+        box-shadow: -50px 50px 100px #325c57,
+            50px 50px 100px #caffff;
+    position: relative;
+}
+
+.post_firebase_container>h1 {
+    position: absolute;
+    margin-top: -600px;
+}
+
+.post_firebase_container h3 {
+    color: #000;
+    margin: 15px 25px 65px;
+    text-align: center;
+}
+
+.post_firebase_container2 {
+    width: 320px;
+    height: 450px;
+    box-shadow: 0px 0px 2px #000;
+    padding: 25px 18px;
+    border-radius: 2px;
+    color: #000;
+    border-radius: 34px;
+        background: linear-gradient(225deg, #71d0c4, #87f7e9);
+        box-shadow: -50px 50px 100px #325c57,
+            50px -50px 100px #caffff;
+}
+
+.post_firebase_container2 input {
+    width: 95%;
+    height: 34px;
+    border: none;
+    outline: none;
+    margin-bottom: 25px;
+    background: transparent;
+    text-indent: 15px;
+    color: #000;
+    border-bottom: 2px solid #000;
+
+}
+
+.post_firebase_container2 input::placeholder {
+    color: #000;
+
+}
+
+.post_firebase_container button {
+    width: 60%;
+    height: 35px;
+    display: block;
+    margin: 25px auto;
+    border-radius: 7px;
+    font-size: 18px;
+    background-color: #3DB9FF;
+    border: none;
+    color: #fff;
+}
+
+.post_firebase_container button:hover {
+    color: #3DB9FF;
+    background-color: #fff;
+    border: 1px solid #3DB9FF;
+}
+
+.back_up {
+    position: absolute;
+    top: 25px;
+    left: 100px;
+    width: 135px !important;
+    height: 45px;
+    color: #fff;
+}
